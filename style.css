@@ -6,58 +6,59 @@
 }
 
 body {
-  background: linear-gradient(85deg, rgb(250, 120, 147) 0%, rgb(253, 215, 71) 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
   overflow: hidden;
   width: 100vw;
   height: 100vh;
 }
-body .content_card {
+
+.content_card {
   position: relative;
   margin: 25px auto;
   width: 400px;
   height: 535px;
   background: white;
+  box-shadow: 0px 0px 2px 1px white;
   border-radius: 10px;
 }
-body .content_card .fondo {
+.content_card .fondo {
   position: absolute;
   width: 100%;
   height: 170px;
   top: 0;
   overflow: hidden;
-  border-bottom: 3px solid rgb(240, 0, 255);
+  border-bottom: 3px solid #FF057C;
+  box-shadow: 0px 1px 2px 0px #FF057C;
   border-radius: 10px 10px 0 0;
   z-index: 100;
 }
-body .content_card .fondo .fondo_computadora {
+.content_card .fondo .fondo_computadora {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-body .content_card .fondo .fondo_color {
+.content_card .fondo .fondo_color {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgb(52, 0, 69) 0%, rgba(253, 215, 71, 0) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.33) 100%);
 }
-body .content_card .perfil {
+.content_card .perfil {
   position: relative;
   z-index: 200;
   top: 85px;
   display: flex;
   justify-content: center;
 }
-body .content_card .perfil .perfil_img {
+.content_card .perfil .perfil_img {
   width: 100px;
-  border: 3px solid rgb(240, 0, 255);
+  border: 3px solid #FF057C;
   border-radius: 50%;
-  box-shadow: 1px 1px 10px 1px rgb(240, 0, 255);
-  background: rgb(240, 0, 255);
+  box-shadow: 1px 1px 10px 1px #FF057C;
+  background: #FF057C;
 }
-body .content_card .info {
+.content_card .info {
   position: absolute;
   top: 200px;
   left: 0;
@@ -69,11 +70,11 @@ body .content_card .info {
   display: flex;
   flex-direction: column;
 }
-body .content_card .info .info_titulo .nombre {
+.content_card .info .info_titulo .nombre {
   font-size: 1.3em;
   font-weight: 700;
 }
-body .content_card .info .info_titulo .direccion {
+.content_card .info .info_titulo .direccion {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,24 +82,24 @@ body .content_card .info .info_titulo .direccion {
   margin-top: 5px;
   text-decoration: none;
   font-style: italic;
-  color: rgb(247, 0, 255);
+  color: #FF057C;
 }
-body .content_card .info .info_titulo .direccion .direccion_svg {
+.content_card .info .info_titulo .direccion .direccion_svg {
   width: 25px;
-  stroke: rgb(247, 0, 255);
+  stroke: #FF057C;
 }
-body .content_card .info .info_descripcion {
+.content_card .info .info_descripcion {
   margin-top: 17px;
   text-align: start;
   padding: 0 10px;
   width: 100%;
   min-height: 130px;
 }
-body .content_card .info .info_descripcion .descript {
+.content_card .info .info_descripcion .descript {
   font-size: 15px;
   line-height: 1.4;
 }
-body .content_card .info .boton_envio {
+.content_card .info .boton_envio {
   display: flex;
   align-items: center;
   margin: 0px auto;
@@ -109,14 +110,14 @@ body .content_card .info .boton_envio {
   color: black;
   font-size: 20px;
 }
-body .content_card .info .boton_envio:hover {
-  background-color: rgba(0, 0, 0, 0.1019607843);
-  box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.881);
+.content_card .info .boton_envio:hover {
+  background-color: rgba(29, 76, 29, 0.1019607843);
+  box-shadow: 2px 1px 4px 0px #FF057C;
 }
-body .content_card .info .boton_envio .github_logo {
+.content_card .info .boton_envio .github_logo {
   width: 40px;
 }
-body .content_card .content_follow {
+.content_card .content_follow {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -124,7 +125,7 @@ body .content_card .content_follow {
   justify-content: center;
   width: 100%;
 }
-body .content_card .content_follow .item {
+.content_card .content_follow .item {
   width: 33.3333333333%;
   display: flex;
   flex-direction: column;
@@ -133,24 +134,24 @@ body .content_card .content_follow .item {
   border-right: 1px solid rgba(50, 50, 50, 0.6666666667);
   border-top: 1px solid rgba(50, 50, 50, 0.6666666667);
 }
-body .content_card .content_follow .item span {
+.content_card .content_follow .item span {
   color: rgba(50, 50, 50, 0.6666666667);
   margin-top: 5px;
   width: 100%;
   text-align: center;
 }
-body .content_card .content_follow .item .contenido_item {
+.content_card .content_follow .item .contenido_item {
   display: flex;
   margin-top: 5px;
 }
-body .content_card .content_follow .item .contenido_item svg {
+.content_card .content_follow .item .contenido_item svg {
   width: 20px;
   height: 20px;
   fill: rgba(50, 50, 50, 0.6666666667);
 }
-body .content_card .content_follow .item .contenido_item p {
+.content_card .content_follow .item .contenido_item p {
   margin-bottom: 10px;
 }
-body .content_card .content_follow .item:nth-child(3) {
+.content_card .content_follow .item:nth-child(3) {
   border-right: none;
 }/*# sourceMappingURL=style.css.map */
