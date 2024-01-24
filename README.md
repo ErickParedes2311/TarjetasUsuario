@@ -17,5 +17,7 @@ Este proyecto consiste en crear una tarjeta de usuario usando HTML y SCSS. La ta
 https://github.com/ErickParedes2311/TarjetasUsuario/blob/main/Tarjetas-de-usuario.png
 
 ## 🚀 About Me
-https://github.com/ErickParedes2311
+- Nombre: Erick Paredes
+- Contacto: +593 995692490
+- Correo: erickparedes.pro246@gmail.com
 
